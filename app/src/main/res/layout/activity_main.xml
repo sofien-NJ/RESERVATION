@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="valider" />
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nom" />
+
+    <EditText
+        android:id="@+id/n3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prenom" />
+
+    <EditText
+        android:id="@+id/n4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tel"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/n5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombre de personne"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/n6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="periode"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ncin"
+        android:inputType="number" />
+
+</LinearLayout>
